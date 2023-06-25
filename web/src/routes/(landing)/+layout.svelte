@@ -4,7 +4,8 @@
 
 <AppShell>
 	<svelte:fragment slot="header">Header</svelte:fragment>
-	<svelte:fragment slot="sidebarLeft">Sidebar Left</svelte:fragment>
-	<slot />
+	<div class="container mx-auto">
+		<slot />
+	</div>
 	<svelte:fragment slot="pageFooter">Page Footer</svelte:fragment>
 </AppShell>
