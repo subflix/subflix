@@ -4,13 +4,10 @@
 <nav class=" p-4 flex justify-between flex-col h-full">
 	<ul>
 		<li class="mb-4 text-center">
-			<a href="/dashboard" class="text-center h4"> SubFlix App </a>
+			<a href="/dashboard" class="text-center h4 hover:text-surface-900-50-token"> SubFlix App </a>
 		</li>
 		<li>
-			<a
-				href="/group/1"
-				class="p-2.5 rounded hover:bg-surface-600/50 border border-surface-600/50 grid grid-cols-1"
-			>
+			<a href="/group/1" class="p-2.5 rounded border border-primary-500 grid grid-cols-1">
 				<div>
 					<p class="font-semibold">Homepage</p>
 				</div>
