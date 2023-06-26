@@ -2,8 +2,8 @@
 	<h1 class="h3">สร้างกลุ่มใหม่</h1>
 </div>
 
-<div class="container mx-auto">
-	<div class="card max-w-lg mx-auto">
+<div class="container mx-auto h-full">
+	<div class="card max-w-lg mx-auto lg:mt-20 mt-10">
 		<div class="p-4">
 			<form action="" method="POST" class="space-y-4">
 				<label class="label">
