@@ -1,5 +1,5 @@
 <div class="border-b">
-	<h1 class="h3">Create Group</h1>
+	<h1 class="h3">สร้างกลุ่มใหม่</h1>
 </div>
 
 <div class="container mx-auto">
@@ -7,8 +7,12 @@
 		<div class="p-4">
 			<form action="" method="POST" class="space-y-4">
 				<label class="label">
-					<span>Name</span>
-					<input class="input" type="text" placeholder="Name" />
+					<span>ชื่อกลุ่มหาร</span>
+					<input class="input" type="text" placeholder="หาร netflix" />
+				</label>
+				<label class="label">
+					<span>จำนวนเงินที่ต้องจ่ายต่อเดือน</span>
+					<input class="input" type="number" step="0.01" placeholder="500.00" />
 				</label>
 
 				<div class="grid gap-4 col-span-4 grid-flow-col">
